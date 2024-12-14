@@ -1,6 +1,7 @@
+import { Link } from 'expo-router';
 import { Text, View } from "react-native";
 
-export default function Index(){
+export default function HomeScreen(){
   return (
     <View
       style={{
@@ -10,12 +11,9 @@ export default function Index(){
       }}
     >
       <Text style={{ fontSize: 40, fontStyle: 'Bold' }}>Nineblock</Text>
-      <button 
-        onClick=''
-        className=''
-      >
-        New Game
-      </button> 
+      <Link href='/game' asChild>
+        <Text>New Game</Text>
+      </Link>
     </View>
   );
 }
