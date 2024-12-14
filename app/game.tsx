@@ -2,6 +2,23 @@ import { Text, View } from 'react-native';
 import styles from './styles.css';
 
 export default function Index() {
+  
+  const tableStyle = {
+    borderWidth: 1,
+    borderColor: 'black',
+  };
+
+  const rowStyle = {
+    flexDirection: 'row',
+  };
+
+  const cellStyle = {
+    borderWidth: 1,
+    borderColor: 'black',
+    padding: 10,
+    flex: 1,
+  };
+
   return (
     <View
       style={{
@@ -10,23 +27,11 @@ export default function Index() {
         alignItems: 'center',
       }}
     >
-      <table className={styles.board}>
-        <tr>
-          <td>d</td>
-          <td>d</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </table>
+      <View style={tableStyle}>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+        </View>
+      </View>
     </View>
   );
 }
