@@ -15,7 +15,7 @@ export default function Index() {
   const cellStyle = {
     borderWidth: 1,
     borderColor: 'black',
-    padding: 10,
+    padding: 18,
     flex: 1,
   };
 
@@ -29,6 +29,102 @@ export default function Index() {
     >
       <View style={tableStyle}>
         <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+        </View>
+        <View style={rowStyle}>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
+          <View style={cellStyle}></View>
           <View style={cellStyle}></View>
         </View>
       </View>
