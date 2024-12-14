@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Index(){
   return (
     <View
       style={{
@@ -10,8 +10,12 @@ export default function Index() {
       }}
     >
       <Text style={{ fontSize: 40, fontStyle: 'Bold' }}>Nineblock</Text>
+      <button 
+        onClick=''
+        className=''
+      >
+        New Game
+      </button> 
     </View>
-
-    
   );
 }
